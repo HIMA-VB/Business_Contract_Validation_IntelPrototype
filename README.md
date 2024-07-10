@@ -1,6 +1,15 @@
 # Business Contract Validation
 
-## How to Run
+This project provides a comprehensive solution for validating and comparing business contract PDFs. It extracts, summarizes, and highlights differences between two PDF documents and allows for rule-based searches to identify specific conditions within the documents.
+
+## Prerequisites
+
+- Python 3.7 or higher
+- Install the required libraries:
+
+```bash
+pip install streamlit pandas torch transformers pymupdf scikit-learn
+```
 
 # Streamlit Application
 
