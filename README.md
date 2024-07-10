@@ -1,31 +1,31 @@
-How to Run
-Create a Virtual Environment
+# Business Contract Validation
 
-Create a virtual environment to isolate dependencies:
+## How to Run
 
-Use your preferred method to create a virtual environment. For example, using venv:
-bash
-Copy code
-python -m venv env
-Activate the virtual environment:
-On macOS/Linux:
-bash
-Copy code
-source env/bin/activate
-On Windows:
-bash
-Copy code
-.\env\Scripts\activate
-Install Required Libraries
+# Streamlit Application
 
-Install the required Python libraries using pip:
+1. **Create and Activate the Virtual Environment**
 
-Copy code
-pip install -r requirements.txt
-Run the Streamlit Application
+   - On macOS/Linux:
+     ```bash
+     source env/bin/activate
+     ```
 
-Launch the Streamlit application:
+   - On Windows:
+     ```bash
+     .\env\Scripts\activate
+     ```
 
-arduino
-Copy code
-streamlit run app.py
+2. **Install Required Libraries**
+
+   Install the required Python libraries using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the Streamlit Application**
+   
+    Launch the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
